@@ -1,22 +1,22 @@
 /* Style général */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2; /* Gris clair doux */
+    background-color: #f0f0f0; /* Blanc cassé doux */
     margin: 0;
     padding: 0;
-    color: #444; /* Gris foncé */
+    color: #666666; /* Gris clair pour le texte */
     text-align: center;
 }
 
 h1 {
     font-size: 36px;
-    color: #2c3e50; /* Bleu marine foncé */
+    color: #333333; /* Charbon foncé pour les titres */
     margin-top: 40px;
 }
 
 /* Section À propos */
 #about {
-    background-color: #a6cfe2; /* Bleu pastel */
+    background-color: #6a7fdb; /* Bleu ardoise */
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
@@ -25,7 +25,7 @@ h1 {
 
 #about h2 {
     font-size: 24px;
-    color: #2c3e50;
+    color: #333333; /* Charbon foncé */
 }
 
 #about p {
@@ -35,19 +35,21 @@ h1 {
 
 /* Section Projets */
 #portfolio {
-    background-color: #a8d5ba; /* Vert pastel */
+    background-color: #2a3d66; /* Bleu marine profond */
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
+    color: #ffffff; /* Blanc pour le texte des projets */
 }
 
 #portfolio h2 {
     font-size: 24px;
-    color: #2c3e50;
+    color: #ffffff; /* Blanc pour le titre */
+    text-align: center;
 }
 
 .project {
-    background-color: #f0f0f0;
+    background-color: #ffffff; /* Blanc pour les projets */
     padding: 15px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -55,13 +57,13 @@ h1 {
 
 .project h3 {
     font-size: 20px;
-    color: #2c3e50;
+    color: #2a3d66; /* Bleu marine profond */
     margin-bottom: 10px;
 }
 
 .project p {
     font-size: 16px;
-    color: #444;
+    color: #666666;
 }
 
 .project img {
@@ -72,7 +74,7 @@ h1 {
 }
 
 .project a {
-    color: #2c3e50;
+    color: #6a7fdb; /* Bleu ardoise pour les liens */
     text-decoration: none;
 }
 
@@ -82,7 +84,7 @@ h1 {
 
 /* Section Compétences */
 #skills {
-    background-color: #bfa3da; /* Violet pastel */
+    background-color: #8fb396; /* Vert sauge atténué */
     padding: 20px;
     border-radius: 10px;
     margin: 20px;
@@ -90,7 +92,7 @@ h1 {
 
 #skills h2 {
     font-size: 24px;
-    color: #2c3e50;
+    color: #333333;
 }
 
 #skills ul {
@@ -101,63 +103,11 @@ h1 {
 #skills li {
     font-size: 18px;
     margin-bottom: 10px;
-    color: #444;
+    color: #666666;
 }
 
 #skills li strong {
-    color: #2c3e50;
-}
-
-/* Section Expérience */
-#experience {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-}
-
-#experience h2 {
-    font-size: 24px;
-    color: #2c3e50;
-}
-
-.experience {
-    margin-bottom: 20px;
-}
-
-.experience h3 {
-    font-size: 20px;
-    color: #2c3e50;
-    margin-bottom: 10px;
-}
-
-.experience p {
-    font-size: 16px;
-    color: #444;
-}
-
-/* Section Certifications */
-#certifications {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 20px;
-}
-
-#certifications h2 {
-    font-size: 24px;
-    color: #2c3e50;
-}
-
-#certifications ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#certifications li {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #444;
+    color: #333333;
 }
 
 /* Section Contact */
@@ -171,16 +121,16 @@ h1 {
 
 #contact h2 {
     font-size: 24px;
-    color: #2c3e50;
+    color: #333333;
 }
 
 #contact p {
     font-size: 16px;
-    color: #444;
+    color: #666666;
 }
 
 #contact a {
-    color: #2c3e50;
+    color: #6a7fdb;
     text-decoration: none;
 }
 
