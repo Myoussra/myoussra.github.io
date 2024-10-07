@@ -137,3 +137,56 @@ h1 {
 #contact a:hover {
     text-decoration: underline;
 }
+
+/* Section Expériences */
+#experience {
+    background-color: #f4d03f; /* Jaune clair pour la section Expériences */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#experience h2 {
+    font-size: 24px;
+    color: #333333; /* Charbon foncé */
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    font-size: 20px;
+    color: #2a3d66; /* Bleu marine pour les titres des expériences */
+    margin-bottom: 10px;
+}
+
+.experience p {
+    font-size: 16px;
+    color: #666666; /* Texte en gris clair */
+}
+
+/* Section Certifications */
+#certifications {
+    background-color: #b2ebf2; /* Bleu pastel pour la section Certifications */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#certifications h2 {
+    font-size: 24px;
+    color: #333333;
+}
+
+#certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#certifications li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666666;
+}
+
