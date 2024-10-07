@@ -1,59 +1,67 @@
+/* Style général */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f2f2f2; /* Gris clair doux */
+    margin: 0;
+    padding: 0;
+    color: #444; /* Gris foncé */
     text-align: center;
-    color: #333;
 }
 
-/* Section "À propos de moi" */
+h1 {
+    font-size: 36px;
+    color: #2c3e50; /* Bleu marine foncé */
+    margin-top: 40px;
+}
+
+/* Section À propos */
 #about {
-    background-color: #f9f9f9;
+    background-color: #a6cfe2; /* Bleu pastel */
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 10px;
+    margin: 20px;
     text-align: left;
-    margin-bottom: 20px;
 }
 
 #about h2 {
     font-size: 24px;
-    color: #333;
+    color: #2c3e50;
 }
 
 #about p {
     font-size: 18px;
-    color: #555;
     line-height: 1.6;
 }
 
-/* Section "Mes Projets" */
+/* Section Projets */
 #portfolio {
+    background-color: #a8d5ba; /* Vert pastel */
     padding: 20px;
-    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
 }
 
 #portfolio h2 {
     font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-    text-align: center;
+    color: #2c3e50;
 }
 
 .project {
     background-color: #f0f0f0;
     padding: 15px;
-    margin-bottom: 20px;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 .project h3 {
     font-size: 20px;
-    color: #007bff;
+    color: #2c3e50;
     margin-bottom: 10px;
 }
 
 .project p {
     font-size: 16px;
-    color: #555;
+    color: #444;
 }
 
 .project img {
@@ -64,7 +72,7 @@ body {
 }
 
 .project a {
-    color: #007bff;
+    color: #2c3e50;
     text-decoration: none;
 }
 
@@ -72,5 +80,110 @@ body {
     text-decoration: underline;
 }
 
-/* Ajoute d'autres sections CSS ici comme la section "Compétences", "Expérience", etc. */
+/* Section Compétences */
+#skills {
+    background-color: #bfa3da; /* Violet pastel */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
 
+#skills h2 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+#skills li strong {
+    color: #2c3e50;
+}
+
+/* Section Expérience */
+#experience {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#experience h2 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h3 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.experience p {
+    font-size: 16px;
+    color: #444;
+}
+
+/* Section Certifications */
+#certifications {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#certifications h2 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+#certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#certifications li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Section Contact */
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: left;
+}
+
+#contact h2 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+#contact p {
+    font-size: 16px;
+    color: #444;
+}
+
+#contact a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
